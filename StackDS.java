@@ -66,8 +66,6 @@ class Stack{
         return false;
     }
     
-    public 
-    
     //Display the data structure
     public string display(){
         String strDisplay = "[";
