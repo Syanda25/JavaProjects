@@ -39,9 +39,15 @@ class Stack{
             return 0;
         }else{
             int value = stack[pointer];
+            stack[pointer]=0; //Since in java the integer (primitive data type) can not be null, then we need to set to 0
             pointer--;
             return value;
         }
+    }
+    
+    //Get the last inserted element in a stack (but do not delete it)
+    public int peek(){
+        return stack[pointer];
     }
     
     public boolean isEmpty(){
@@ -60,6 +66,9 @@ class Stack{
         return false;
     }
     
+    public 
+    
+    //Display the data structure
     public string display(){
         String strDisplay = "[";
         for(int element: stack){
