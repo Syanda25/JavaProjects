@@ -1,9 +1,3 @@
-/*
- *@Auther: Siyanda S Ntuli
- *Email: siyandasec25@gmail.com
- *Topic: Quadratic Probing
-*/
-
 import java.util.*;
 
 public class SearchSuggestionsSystem {
@@ -22,20 +16,20 @@ public class SearchSuggestionsSystem {
         ArrayList<ArrayList<String>> listOfLists = new ArrayList<>();
         Arrays.sort(products);
 
-        StringBuilder sbProd = new StringBuilder();
+        StringBuilder sbSW = new StringBuilder();
 
         for (char ch : searchWord.toCharArray()) {
-            sbProd.append(ch);
+            sbSW.append(ch);
             ArrayList<String> newWords = new ArrayList<>();
 
             for (String product : products) {
-                StringBuilder sbSW = new StringBuilder();
+                StringBuilder sbProd = new StringBuilder();
                 char[] charProd = product.toCharArray();
 
-                for (int i = 0; i < charProd.length; i++) {
-                    sbSW.append(charProd[i]);
-                    String strProd = sbProd.toString();
+                for (int i = 0; i < charProd.length; i++) { 
+                    sbProd.append(charProd[i]);
                     String strSW = sbSW.toString();
+                    String strProd = sbProd.toString();
 
                     if (strProd.equalsIgnoreCase(strSW)) {
                         if (newWords.size() < 3) {
