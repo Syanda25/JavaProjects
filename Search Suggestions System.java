@@ -1,7 +1,7 @@
 /*
  *@Auther: Siyanda S Ntuli
  *Email: siyandasec25@gmail.com
- *Topic: Quadratic Probing
+ *Topic: Search Suggestions System
 */
 
 import java.util.*;
