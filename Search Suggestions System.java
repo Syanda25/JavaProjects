@@ -1,3 +1,9 @@
+/*
+ *@Auther: Siyanda S Ntuli
+ *Email: siyandasec25@gmail.com
+ *Topic: Quadratic Probing
+*/
+
 import java.util.*;
 
 public class SearchSuggestionsSystem {
