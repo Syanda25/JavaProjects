@@ -7,7 +7,7 @@
 	  	    searchWord = "acd"
 
 		Array.sort(products);
-		products = {"a", "abc", "abcd", "abdc", "acd", "acbd", "dbc"}
+		products = {"a", "abc", "abcd", "abdc", "acbd", "acd", "dbc"}
 
 		char[0] = 'a' => searchWord = "a"
 		char[1] = 'c' => searchWord = "ac"
