@@ -17,7 +17,6 @@
 		"a" => 	{"a", "abc", "abcd"}
 		"ac" =>	{"a", "acd", "acbd"}
 		"acd"=>	{"a", "acd"}
-
 */
 
 import java.util.*;
